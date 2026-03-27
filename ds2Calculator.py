@@ -37,11 +37,15 @@ current_structure = 1
 
 def calculator():
 
-    # Réinitialise les values du dict
+    global current_structure
+
+    # Réinitialise les values du dict & la structure actuelle
 
     for material, stack in wares.items():
         for key, value in stack.items():
                 wares[material][key] = 0
+
+    current_structure = 1
 
     # Voir le contenu du dict
     #
