@@ -167,18 +167,26 @@ def ware_number_validation(ware_type):
 
 def ware_type_calculator(ware_type, wanted_total_value):
 
+    min_stack = min(wares[ware_type])
+
     remaining = wanted_total_value
-    biggest_stack_below_remaining = max(key for key in wares[ware_type] if key < remaining)
-    stacks_to_get = remaining / biggest_stack_below_remaining
-    stacks_to_get = math.floor(stacks_to_get)
-    num_of_wares_substracted = biggest_stack_below_remaining * stacks_to_get
-    wares[ware_type][biggest_stack_below_remaining] += stacks_to_get
-    remaining -= num_of_wares_substracted
+
+    if remaining < min_stack:
+        wares[ware_type][min_stack] += 1
+        remaining -= min_stack
+    else :
+        biggest_stack_below_remaining = max(key for key in wares[ware_type] if key < remaining)
+        stacks_to_get = remaining / biggest_stack_below_remaining
+        stacks_to_get = math.floor(stacks_to_get)
+        num_of_wares_substracted = biggest_stack_below_remaining * stacks_to_get
+        wares[ware_type][biggest_stack_below_remaining] += stacks_to_get
+
+        remaining -= num_of_wares_substracted
+
     if remaining > min(wares[ware_type]):
         ware_type_calculator(ware_type, remaining)
     else:
         if remaining > 0:
-            min_stack = min(wares[ware_type])
             wares[ware_type][min_stack] += 1
 
 
