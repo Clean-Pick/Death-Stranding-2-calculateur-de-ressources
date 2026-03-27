@@ -41,8 +41,15 @@ def calculator():
 
     for material, stack in wares.items():
         for key, value in stack.items():
-            if value > 0:
-                value = 0
+                wares[material][key] = 0
+
+    # Voir le contenu du dict
+    #
+    # for material, stack in wares.items():
+    #     for key, value in stack.items():
+    #         print(f"{material} - {key} : {value}")
+
+
 
     print("Combien de structures voulez-vous réparer/construire ?")
     structure_num_answer = input("> ")
