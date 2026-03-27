@@ -23,3 +23,8 @@ je compile un .py en .exe en et devrai trouver une meilleure méthode pour les p
 
 Le programme est un projet d'une après-midi, alors il cassera vite si vous ne suivez pas correctement ce qui est écrit à l'écran, soyez indulgent, il n'existe que pour faire gagner un peu de temps
 pour un "problème" précis, il n'est pas fait dans l'idée d'être une app ultra robuste, juste une petite aide sympa. Si vous vous en tenez à ce qui est écrit, vous aurez vos résultats sans souci !
+
+
+# Exemple de résultat :
+<img width="1117" height="629" alt="image" src="https://github.com/user-attachments/assets/c1096146-f79c-4b46-8eae-b0fef1fcbe57" />
+
