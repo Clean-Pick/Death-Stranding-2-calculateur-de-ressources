@@ -37,6 +37,13 @@ current_structure = 1
 
 def calculator():
 
+    # Réinitialise les values du dict
+
+    for material, stack in wares.items():
+        for key, value in stack.items():
+            if value > 0:
+                value = 0
+
     print("Combien de structures voulez-vous réparer/construire ?")
     structure_num_answer = input("> ")
     structure_num_answer = int(structure_num_answer)
