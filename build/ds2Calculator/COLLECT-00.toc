@@ -1,5 +1,5 @@
 ([('ds2Calculator.exe',
-   'E:\\Dev\\Python\\Projects\\Perso\\build\\ds2Calculator\\ds2Calculator.exe',
+   'E:\\Dev\\Python\\Projects\\Perso\\Ds2Calculator\\Death-Stranding-2-calculateur-de-ressources\\build\\ds2Calculator\\ds2Calculator.exe',
    'EXECUTABLE'),
   ('python314.dll',
    'C:\\Users\\Clean\\AppData\\Local\\Python\\pythoncore-3.14-64\\python314.dll',
@@ -41,5 +41,5 @@
    'C:\\Users\\Clean\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\libssl-3.dll',
    'BINARY'),
   ('base_library.zip',
-   'E:\\Dev\\Python\\Projects\\Perso\\build\\ds2Calculator\\base_library.zip',
+   'E:\\Dev\\Python\\Projects\\Perso\\Ds2Calculator\\Death-Stranding-2-calculateur-de-ressources\\build\\ds2Calculator\\base_library.zip',
    'DATA')],)

@@ -1,4 +1,4 @@
-('E:\\Dev\\Python\\Projects\\Perso\\build\\ds2Calculator\\PYZ-00.pyz',
+('E:\\Dev\\Python\\Projects\\Perso\\Ds2Calculator\\Death-Stranding-2-calculateur-de-ressources\\build\\ds2Calculator\\PYZ-00.pyz',
  [('__future__',
    'C:\\Users\\Clean\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\__future__.py',
    'PYMODULE'),

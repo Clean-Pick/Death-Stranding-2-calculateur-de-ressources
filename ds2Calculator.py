@@ -170,8 +170,13 @@ def show_results():
         for key, value in stack.items():
             if value > 0:
                 print(f"[{material}] - [{key}] = {value}")
-    print("Appuyez sur Entrée pour fermer le programme.")
-    input("> ")
+    print("Appuyez sur Entrée pour fermer le programme ou \"r\" pour le relancer.")
+    final_answer = input("> ")
+    match final_answer:
+        case "r" | "R":
+            calculator()
+        case _ :
+            quit()
 
 calculator()
 
