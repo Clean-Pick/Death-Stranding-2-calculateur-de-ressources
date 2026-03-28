@@ -5,7 +5,7 @@ Un simple calculateur de ressources à emporter lorsque vous souhaitez réparer/
 ## Télécharger :
 Github n'étant pas très non-dev friendly, je vais indiquer précisément comment télécharger ce repo et accéder au programme :  
   -Cliquez sur le menu "releases" à droite de votre écran.  
-  -Cliquez sur ds2Calculator.exe
+  -Cliquez sur ds2Calculator.exe  
   -Enregistrez le .exe où bon vous semble dans votre ordinateur  
   
 ~~Ces fichiers ont été générés par pyinstaller qui m'a permis de compiler le .py en .exe~~ J'utilise désormais auto-py-to-exe qui est déjà plus efficace mais pas parfait sur ce point, cependant windows n'aime pas trop cette méthode et détectera le .exe comme un virus : il n'en est rien. 
