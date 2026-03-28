@@ -8,16 +8,14 @@ Github n'étant pas très non-dev friendly, je vais indiquer précisément comme
   -Cliquez sur "download ZIP"  
   -Enregistrez le zip où bon vous semble dans votre ordinateur  
   
-Ces fichiers ont été générés par pyinstaller qui m'a permis de compiler le .py en .exe, cependant windows n'aime pas trop cette méthode et détectera le .exe comme un virus : il n'en est rien. 
+~~Ces fichiers ont été générés par pyinstaller qui m'a permis de compiler le .py en .exe~~ J'utilise désormais auto-py-to-exe qui est déjà plus efficace mais pas parfait sur ce point, cependant windows n'aime pas trop cette méthode et détectera le .exe comme un virus : il n'en est rien. 
 Libre à vous de cliquer sur le .py et de lire le code depuis GitHub, il ne fait absolument rien en dehors de sa propre exécution isolée dans la fenêtre de commande. C'est la première fois que
 je compile un .py en .exe en et devrai trouver une meilleure méthode pour les prochaines fois, mais cet exécutable est inoffensif.
 
 ## Utiliser :
   -Extrayez le zip où bon vous semble (via WinRar ou autre)  
-  -Dans le dossier extrait, naviguez dans le dossier "dist" puis "ds2Calculator"  
-  -Le chemin vers le .exe est donc "Death-Stranding-2-calculateur-de-ressources\dist\ds2Calculator"  
+  -Dans le dossier extrait, cliquez sur ds2Calculator.exe
   -Optionnel : ajoutez une exception windows defender au .exe si vous ne voulez pas avoir l'alerte de faux positif à chaque fois  
-  -Double cliquez sur "ds2Calculator.exe"  
   -Autorisez le lancement du .exe en déroulant le menu dans la fenêtre d'alerte (encore désolé pour ça)  
   -Suivez les instructions écrites dans la fenêtre qui vient de s'ouvrir afin d'arriver à un écran de résultats vous indiquant combien de ressources et en quelles quantités vous allez avoir besoin.  
 
