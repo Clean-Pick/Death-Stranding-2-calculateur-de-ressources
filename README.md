@@ -14,7 +14,7 @@ je compile un .py en .exe en et devrai trouver une meilleure méthode pour les p
 
 ## Utiliser :
   -Extrayez le zip où bon vous semble (via WinRar ou autre)  
-  -Dans le dossier extrait, cliquez sur ds2Calculator.exe
+  -Dans le dossier extrait, cliquez sur ds2Calculator.exe  
   -Optionnel : ajoutez une exception windows defender au .exe si vous ne voulez pas avoir l'alerte de faux positif à chaque fois  
   -Autorisez le lancement du .exe en déroulant le menu dans la fenêtre d'alerte (encore désolé pour ça)  
   -Suivez les instructions écrites dans la fenêtre qui vient de s'ouvrir afin d'arriver à un écran de résultats vous indiquant combien de ressources et en quelles quantités vous allez avoir besoin.  
