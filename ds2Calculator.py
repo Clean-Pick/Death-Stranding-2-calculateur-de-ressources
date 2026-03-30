@@ -73,7 +73,7 @@ def ware_type_validation(structure_num):
     global  current_structure
 
     if structure_num == 0:
-        show_results()
+        show_results(structure_num)
         return
 
 
@@ -190,17 +190,20 @@ def ware_type_calculator(ware_type, wanted_total_value):
             wares[ware_type][min_stack] += 1
 
 
-def show_results():
+def show_results(structure_num):
     print("Vous aurez besoin au total :")
     for material, stack in wares.items():
         for key, value in stack.items():
             if value > 0:
                 print(f"[{material}] - [{key}] = {value}")
-    print("Appuyez sur Entrée pour fermer le programme ou \"r\" pour le relancer.")
+    print("Appuyez sur \"Entrée\" pour fermer le programme, \"r\" pour le relancer ou \"a\" pour ajouter une structure.")
     final_answer = input("> ")
     match final_answer:
         case "r" | "R":
             calculator()
+        case "a" | "A":
+            structure_num += 1
+            ware_type_validation(structure_num)
         case _ :
             quit()
 
