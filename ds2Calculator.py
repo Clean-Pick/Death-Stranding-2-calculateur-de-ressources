@@ -175,7 +175,7 @@ def ware_type_calculator(ware_type, wanted_total_value):
         wares[ware_type][min_stack] += 1
         remaining -= min_stack
     else :
-        biggest_stack_below_remaining = max(key for key in wares[ware_type] if key < remaining)
+        biggest_stack_below_remaining = max(key for key in wares[ware_type] if key <= remaining)
         stacks_to_get = remaining / biggest_stack_below_remaining
         stacks_to_get = math.floor(stacks_to_get)
         num_of_wares_substracted = biggest_stack_below_remaining * stacks_to_get
